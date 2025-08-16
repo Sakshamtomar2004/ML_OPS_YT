@@ -1,2 +1,6 @@
+[core]
+    remote = remote
 ['remote "myremote"']
     url = ../S3
+['remote "remote"']
+    url = D:\CA content\Python\ML_OPS\S3
