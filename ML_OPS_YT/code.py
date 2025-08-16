@@ -3,9 +3,9 @@ import pandas as pd
 import os
 
 # Create a sample DataFrame with column names
-data = {'Name': ['Alice', 'Bob', 'Charlie'],
-    'Age': [25, 30, 35],
-    'City': ['New York', 'Los Angeles', 'Chicago']
+data = {'Name': ['Alice', 'Bob', 'Charlie','Saksham'],
+    'Age': [25, 30, 35,18],
+    'City': ['New York', 'Los Angeles', 'Chicago','Agra']
     }
 
 df = pd.DataFrame(data)
@@ -17,6 +17,8 @@ df.loc[len(df.index)] = new_row_loc
 # # Adding new row to df for V3
 new_row_loc2 = {'Name': 'GF2', 'Age': 30, 'City': 'City2'}
 df.loc[len(df.index)] = new_row_loc2
+
+
 
 # Ensure the "data" directory exists at the root level
 data_dir = 'data'
